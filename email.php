@@ -1,5 +1,17 @@
 <?php
 
+function main(array $args) : array
+{
+    $name = $args["name"] ?? "stranger";
+    
+    $greeting = "Hello {$name}!";
+    echo $greeting;
+ 
+    return [
+        'body' => $greeting,
+    ];
+}
+
 echo $_GET["naming"]
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
