@@ -13,7 +13,7 @@ function main(array $args) : array
     ];
 }
 
-echo $_GET["naming"]
+echo $_GET["naming"];
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Get the POST variables
