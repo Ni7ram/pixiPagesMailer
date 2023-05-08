@@ -5,7 +5,7 @@ function main(array $args) : array
 {
     $name = $args["name"] ?? "stranger";
     
-    $greeting = "Hello {$name}!";
+    $greeting = "Helloir {$name}!";
     echo $greeting;
  
     return [
